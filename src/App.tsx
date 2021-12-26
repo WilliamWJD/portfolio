@@ -1,8 +1,14 @@
 import React from 'react';
 
+import { Home } from './pages/home';
+import { GlobalStyle } from './globalStyle';
+
 function App() {
   return (
-    <h1>My Portfolio</h1>
+    <>
+      <GlobalStyle/>
+      <Home/>
+    </>
   );
 }
 
