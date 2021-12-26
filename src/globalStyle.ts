@@ -21,6 +21,14 @@ export const GlobalStyle = createGlobalStyle`
         font-weight:700;
     }
 
+    ul{
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
     button{
         cursor: pointer;
     }    
