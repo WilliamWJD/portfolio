@@ -51,12 +51,21 @@ export const InfoDetail = styled.div`
         font-size:15px;
         border: 2px solid #0C2461;
         transition: background-color 0.5s;
+        transition: display 0.2s;
 
         display: flex;
         align-items: center;
 
         svg{
-            margin-right:10px;
+            margin-right: 10px;
+        }
+
+        :hover{
+            svg{
+                -webkit-transform: rotate(360deg); 
+                transform:rotate(360deg); 
+                transition-duration: 0.9s;
+            }
         }
     }
 `;

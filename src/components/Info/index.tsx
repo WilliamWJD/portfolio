@@ -12,10 +12,14 @@ export function Info(){
                     <strong>Olá! eu sou</strong>
                     <h1>William José Dias</h1>
                     <p>Desenvolvedor fullstack utilizando tecnologias como React, React Native e Node.JS</p>
-                    <button>
-                        <FaGithub color="#0C2461" size={ 26 }/>
-                        Acessar Github
-                    </button>
+                    <a href="https://www.github.com/williamwjd">
+                        <button>
+                            <FaGithub color="#0C2461" size={ 26 }/>
+                            <span>
+                                Acessar Github
+                            </span>
+                        </button>
+                    </a>
                 </InfoDetail>
 
                 <img src={infoImg} alt="Info Image" />
