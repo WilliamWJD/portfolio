@@ -39,16 +39,11 @@ export const Content = styled.div`
         ul{
             display: flex;
             
-            a{
+            li{
                 margin-right: 37px;
                 font-size:18px;
                 color: #484848;
                 cursor: pointer;
-
-                :first-child{
-                    font-weight: 700;
-                    color:#0C2461;
-                }
 
                 :last-child{
                     margin-right: 0px;
