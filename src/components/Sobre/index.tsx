@@ -2,9 +2,9 @@ import { Container, Content } from './styles';
 
 export function Sobre() {
     return (
-        <Container>
+        <Container id="sobre">
             <Content>
-                <h1>{`<Sobre/>`}</h1>
+                <h1>Sobre</h1>
                 <p>
                     Estudante de análise e desenvolvimento de sistema apaixonado por
                     tecnologia e a forma como ela facilita o dia a dia, gosto de ajudar pessoas a resolver

@@ -6,7 +6,7 @@ import infoImg from '../../assets/info-img.png';
 
 export function Info(){
     return(
-        <Container>
+        <Container id="info">
             <Content>
                 <InfoDetail>
                     <strong>Olá! eu sou</strong>

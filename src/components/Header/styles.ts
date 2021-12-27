@@ -39,7 +39,7 @@ export const Content = styled.div`
         ul{
             display: flex;
             
-            li{
+            a{
                 margin-right: 37px;
                 font-size:18px;
                 color: #484848;
