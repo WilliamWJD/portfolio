@@ -36,24 +36,40 @@ export const BoxProjectsContainer = styled.div`
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 `;
 
 export const BoxProject = styled.div`
-    width:208px;
-    height:208px;
-    background-color:#ddd;
-    
+    width:350px;
+    height:280px;
+    cursor: pointer;
+    border-radius: 0 0 20px 20px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+
+    img{
+        width: 100%;
+        height: 100%;
+        background-size:cover;
+    }
+
+    >div{
+        width: 100%;
+        height:45px;
+        display: flex;
+        justify-content: center;
+        background-color: #F7F7F7 ;
+        border-radius: 0 0 20px 20px;
+    }
 
     strong{
         font-size:18px;
         color:#484848;
         font-weight: 400;
+        margin: 15px;
     }
 `;
 
