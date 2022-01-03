@@ -9,6 +9,10 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media(max-width: 1177px){
+        padding:30px;
+    }
 `;
 
 export const Content = styled.div`
@@ -19,6 +23,12 @@ export const Content = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media(max-width:779px){
+        img{
+            display: none;
+        }
+    }
 `;
 
 export const InfoDetail = styled.div`
@@ -68,4 +78,17 @@ export const InfoDetail = styled.div`
             }
         }
     }
+    @media(max-width:779px){
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        p{
+            text-align: center;
+        }
+    }
+    
 `;

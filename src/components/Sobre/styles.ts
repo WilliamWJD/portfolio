@@ -7,6 +7,10 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media(max-width: 1177px){
+        padding:30px;
+    }
 `;
 
 export const Content = styled.div`
@@ -52,6 +56,15 @@ export const Content = styled.div`
             color: #A9A9A9;
             
         }
+
+        @media(max-width:625px){
+            flex-direction: column;
+
+            img{
+                margin-bottom:20px;
+            }
+        }
     }
 
+   
 `;

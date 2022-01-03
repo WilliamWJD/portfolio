@@ -29,19 +29,19 @@ export function Header() {
             active: false
         },
         {
-            title: "Tecnlogias",
+            title: "Tecnologias",
             path: "tecnologias",
             active: false
         },
     ]);
 
-    function handleActiveNavItem(path:string){
-        if(navItems){
-            const updateNavItems = navItems.map((item:NavProps)=>{
-                if(item.path === path){
+    function handleActiveNavItem(path: string) {
+        if (navItems) {
+            const updateNavItems = navItems.map((item: NavProps) => {
+                if (item.path === path) {
                     item.active = true;
                     return item;
-                }else{
+                } else {
                     item.active = false;
                     return item;
                 }
@@ -62,10 +62,8 @@ export function Header() {
                 <nav>
                     <ul>
                         {navItems.map(navItem => (
-                            <li 
-                                key={navItem.path} 
-                                style={ navItem.active ? {borderBottom: '2px solid #0C2461', fontWeight:700, color:'#0c2461'} : { fontWeight:400 }}
-                                
+                            <li
+                                key={navItem.path}
                             >
                                 <Link
                                     to={navItem.path}
@@ -73,7 +71,7 @@ export function Header() {
                                     smooth={true}
                                     offset={-70}
                                     duration={500}
-                                    onClick={()=>handleActiveNavItem(navItem.path)}
+                                    onClick={() => handleActiveNavItem(navItem.path)}
                                 >
                                     {navItem.title}
                                 </Link>

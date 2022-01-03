@@ -7,6 +7,10 @@ export const Container = styled.header`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media(max-width: 1177px){
+        padding:20px;
+    }
 `;
 
 export const Content = styled.div`
@@ -64,6 +68,12 @@ export const Content = styled.div`
         :hover{
             background-color:#0C2461;
             color:#fff;
+        }
+    }
+
+    @media(max-width:858px){
+        nav{
+            display: none;
         }
     }
 `;

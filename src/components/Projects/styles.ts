@@ -7,6 +7,10 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media(max-width: 1177px){
+        padding:30px;
+    }
 `;
 
 export const Content = styled.div`
@@ -31,12 +35,19 @@ export const Content = styled.div`
 
 export const BoxProjectsContainer = styled.div`
     width:100%;
-    margin-top: 27px;
+    margin-top: 50px;
 
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+
+    @media(max-width:794px){
+        justify-content: center;
+    }
+    /* @media(max-width:1164px){
+        justify-content: center;
+    } */
 `;
 
 export const BoxProject = styled.div`

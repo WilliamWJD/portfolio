@@ -7,6 +7,10 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media(max-width: 1177px){
+        padding:30px;
+    }
 `;
 
 export const Content = styled.div`
@@ -31,17 +35,40 @@ export const Content = styled.div`
 
 export const BoxTecContainer = styled.div`
     width:100%;
-    margin-top: 27px;
+    margin-top: 50px;
 
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
-`;
 
-export const BoxTec = styled.div`
-    width:100px;
-    height:100px;
-    border-radius: 50%;
-    background-color:#ddd;
+    img{
+        margin-right: 20px;
+        position: relative;
+        cursor: pointer;
+
+        :hover:before{
+          
+                content:'';
+                position: absolute;
+                width: 100px;
+                height: 20px;
+                background-color: #FA983A;
+        
+        }
+
+        :last-child{
+            margin-right: 0;
+        }
+    }
+
+    @media(max-width:1024px){
+        img{
+            margin-bottom: 10px;
+        }
+    }
+
+    @media(max-width:829px){
+        justify-content: center;
+    }
 `;
