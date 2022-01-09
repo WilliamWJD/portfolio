@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.9df8208d.js",
-    "static/media/gobarber.png": "/static/media/gobarber.bf42dad036c6e8b06153.png",
-    "static/media/covid-cases.png": "/static/media/covid-cases.83dd56902523707342f6.png",
-    "static/media/dev-radar.png": "/static/media/dev-radar.0fa4f4f56a2a8220cbf2.png",
-    "static/media/go-restaurant.png": "/static/media/go-restaurant.f2b8ceb6c6dfddcfd6b8.png",
-    "static/media/ecoleta.jpeg": "/static/media/ecoleta.31d1cdbc0ebad64dcebb.jpeg",
-    "static/media/will.jpeg": "/static/media/will.bcae372e7d5f811d46b3.jpeg",
-    "static/media/jobscalc.png": "/static/media/jobscalc.aea32fe3500b40a5905a.png",
-    "static/media/letmeask.png": "/static/media/letmeask.9371ba1cdea767a372a0.png",
-    "static/media/aircnc.jpg": "/static/media/aircnc.e2471412bf2a7708e0ba.jpg",
-    "static/media/info-img.png": "/static/media/info-img.fa17b93c888858dc0898.png",
-    "static/media/dt-money.png": "/static/media/dt-money.604a96e60ee2dcb8343d.png",
-    "static/media/logo.png": "/static/media/logo.4ae05ac8dd542c53bc1c.png",
-    "index.html": "/index.html",
-    "main.9df8208d.js.map": "/static/js/main.9df8208d.js.map"
+    "main.js": "/portfolio/static/js/main.8dbe3d6a.js",
+    "static/media/gobarber.png": "/portfolio/static/media/gobarber.bf42dad036c6e8b06153.png",
+    "static/media/covid-cases.png": "/portfolio/static/media/covid-cases.83dd56902523707342f6.png",
+    "static/media/dev-radar.png": "/portfolio/static/media/dev-radar.0fa4f4f56a2a8220cbf2.png",
+    "static/media/go-restaurant.png": "/portfolio/static/media/go-restaurant.f2b8ceb6c6dfddcfd6b8.png",
+    "static/media/ecoleta.jpeg": "/portfolio/static/media/ecoleta.31d1cdbc0ebad64dcebb.jpeg",
+    "static/media/will.jpeg": "/portfolio/static/media/will.bcae372e7d5f811d46b3.jpeg",
+    "static/media/jobscalc.png": "/portfolio/static/media/jobscalc.aea32fe3500b40a5905a.png",
+    "static/media/letmeask.png": "/portfolio/static/media/letmeask.9371ba1cdea767a372a0.png",
+    "static/media/aircnc.jpg": "/portfolio/static/media/aircnc.e2471412bf2a7708e0ba.jpg",
+    "static/media/info-img.png": "/portfolio/static/media/info-img.fa17b93c888858dc0898.png",
+    "static/media/dt-money.png": "/portfolio/static/media/dt-money.604a96e60ee2dcb8343d.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.4ae05ac8dd542c53bc1c.png",
+    "index.html": "/portfolio/index.html",
+    "main.8dbe3d6a.js.map": "/portfolio/static/js/main.8dbe3d6a.js.map"
   },
   "entrypoints": [
-    "static/js/main.9df8208d.js"
+    "static/js/main.8dbe3d6a.js"
   ]
 }
