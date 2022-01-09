@@ -56,24 +56,23 @@ export const Content = styled.div`
         }
     }
 
-    button{
-        border: 2px solid #0C2461;
-        background-color: #fff;
-        color: #0C2461;
-        border-radius:20px;
-        padding: 8px 25px;
-        font-size:16px;
-        transition: background-color 0.5s;
-
-        :hover{
-            background-color:#0C2461;
-            color:#fff;
-        }
-    }
-
     @media(max-width:858px){
         nav{
             display: none;
         }
+    }
+`;
+
+export const ButtonContact = styled.a`
+    border: 2px solid #0C2461;
+    background-color: #fff;
+    color: #0C2461;
+    border-radius:20px;
+    padding: 8px 25px;
+    font-size:16px;
+    transition: background-color 0.5s;
+    :hover{
+        background-color:#0C2461;
+        color:#fff;
     }
 `;

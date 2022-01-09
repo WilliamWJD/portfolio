@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 
-import { Container, Content } from './styles';
+import { Container, Content, ButtonContact } from './styles';
 
 import imgLogo from '../../assets/logo.png';
 
@@ -80,7 +80,7 @@ export function Header() {
                     </ul>
                 </nav>
 
-                <button>Contato</button>
+                <ButtonContact href="mailto:william.jose.wjd@gmail.com">Contato</ButtonContact>
             </Content>
         </Container>
     )
