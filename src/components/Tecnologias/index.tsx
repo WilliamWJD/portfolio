@@ -53,7 +53,7 @@ export function Tecnlogias(){
 
                 <BoxTecContainer>
                     {techs.map((tech:TecnologiasProps)=>(
-                        <img src={tech.image} alt="" key={tech.image} />
+                        <img src={tech.image} alt="image-tech" key={tech.image} />
                     ))}
                 </BoxTecContainer>
             </Content>
