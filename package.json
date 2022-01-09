@@ -50,5 +50,8 @@
     "@types/react-router-hash-link": "^2.4.4",
     "@types/react-scroll": "^1.8.3",
     "@types/styled-components": "^5.1.19"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
